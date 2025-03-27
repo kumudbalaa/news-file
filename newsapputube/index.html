@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news app</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <nav>
+    <div class="main-nav container flex">
+        <a href="#" class="company-logo">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/news-logo-png-transparent.png" alt="company-logo">
+        </a>
+        <div class="nav-links">
+            <ul class="flex">
+                <li class="hover-linKs nav-item" > IPL </li>
+                <li class="hover-linKs nav-item" >Finance</li>
+                <li class="hover-linKs nav-item" >Politics</li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="news-input" placeholder="e.g science">
+            <button class="search-button"> Search</button>
+        </div>
+    </div>
+    </nav>
+
+    <main>
+     <div class="card-container flex" id="card-container">
+
+     </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200 "   alt="news img" srcset="">
+            </div>
+            <div class="card-content">
+                <h3 class="news-title"> this is the title</h3>
+                <h6 class="news-source" id="news-source"> End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorum quasi praesentium! Facere delectus eligendi officia a nihil tenetur repudiandae quod consequatur velit! Atque ipsum minima deserunt sint! Accusamus, maiores!
+                Maxime cumque tempois,  placeat diserunt optio inventore suscipit laudantium tempora fugit nostrum. Ab, nesciunt error inventore odit voluptate aut doloremque cumque?</p>
+            </div>
+         </div>
+    </template>
+    
+    <script src="./first.js"></script>
+</body>
+</html>
