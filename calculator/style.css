@@ -1,4 +1,6 @@
-/* *{
+/* 
+
+*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -59,6 +61,8 @@ button{
 .operator{
     color:rgba(0, 0, 0, 0.537)
 } */
+
+
 
 *{
     margin:0;

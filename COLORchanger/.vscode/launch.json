@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/balak/OneDrive/Desktop/news file/QRCODE",
-      "program": "c:/Users/balak/OneDrive/Desktop/news file/QRCODE/build/Debug/outDebug",
+      "cwd": "c:/Users/balak/OneDrive/Desktop/news file/COLORchanger",
+      "program": "c:/Users/balak/OneDrive/Desktop/news file/COLORchanger/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
